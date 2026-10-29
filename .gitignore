@@ -1,0 +1,9 @@
+*.gguf
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+node_modules/
+*.log
+!apc/logs/*.jsonl

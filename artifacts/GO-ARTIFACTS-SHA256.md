@@ -1,0 +1,28 @@
+# Контрольные суммы исходных Go-артефактов
+
+SHA-256 подсчитаны для файлов, извлечённых из предоставленных архивов.
+
+## baseline-project/source
+
+```text
+3d87bddec1f62310eb24bb28bfc4f6416ef506e956fa28465f5c8c4e9181ef70  README.md
+e22a457e6e4890633ee87ed6e739cb35d99a8219a45e7ee5673e1500e2f7c5bf  broken_test.go
+59ff31fc50ca87dec2acc786b59b4ec4ae0efdcc79bae196efa727a65e13e256  go.mod
+276ca1ea4520222d0ce186fbf43a447923955ab93b20e80ecef970eb83c55aae  main.go
+58115f67f9984f43108ee18dc45207e4565cca4207633101c300f1f9d666b028  main_test.go
+f7730c95269fc63268786fda1a08e0b6c18cc9b08040e04fac00e13c9bbedfa1  sum.go
+```
+
+## artifacts/shortener-success/source
+
+```text
+3d87bddec1f62310eb24bb28bfc4f6416ef506e956fa28465f5c8c4e9181ef70  README.md
+e22a457e6e4890633ee87ed6e739cb35d99a8219a45e7ee5673e1500e2f7c5bf  broken_test.go
+59ff31fc50ca87dec2acc786b59b4ec4ae0efdcc79bae196efa727a65e13e256  go.mod
+1b726c183864f22d633f956a040b5e298b97a12089e835d70302bd639e120a7e  handlers.go
+87e3e8ed111b2b0e7ef48dcbf24674209fa939a068061577229cfd00a29cbb12  links_test.go
+bfb1756b49ee1c3299de3692d75ffcf47094dbb2f93d4b4ac96ccfe30dd7410a  main.go
+58115f67f9984f43108ee18dc45207e4565cca4207633101c300f1f9d666b028  main_test.go
+71736c8d20998f192ea853cb6f42a9e605b97c774e00b0e2d5d161608187d802  store.go
+f7730c95269fc63268786fda1a08e0b6c18cc9b08040e04fac00e13c9bbedfa1  sum.go
+```

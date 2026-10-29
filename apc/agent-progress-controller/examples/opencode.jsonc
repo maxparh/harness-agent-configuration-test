@@ -1,0 +1,9 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    { "package": "C:/APC/agent-progress-controller", "options": {
+      "mode": "observe", "repeatThreshold": 3,
+      "logDirectory": "C:/APC/logs"
+    }}
+  ]
+}

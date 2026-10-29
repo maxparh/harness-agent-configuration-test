@@ -1,0 +1,20 @@
+{
+  "name": "agent-progress-controller",
+  "version": "0.2.0-pilot",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.0.0"
+  }
+}
